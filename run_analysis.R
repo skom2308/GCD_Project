@@ -54,7 +54,7 @@ run_analysis <- function (){
         #return(mean_std_dataset) Part 4
         grouped<-group_by(mean_std_dataset, subject, activity_id, activity_name) 
         df<- summarise_each(grouped, funs(mean))
-        write.table(df, file="mean_data.txt" ,row.name=FALSE, sep=" ")
+        write.table(df, file="tidy_mean_data.txt" ,row.name=FALSE, sep=" ")
         #return(df)
         
         
