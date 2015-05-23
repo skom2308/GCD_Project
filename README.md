@@ -17,6 +17,7 @@ There are two important files along with this one:
 	* Subsets the X_train and X_test by only using the columns that have the mean and standard deviation (std) data. meanFreq columns are removed.
 	* Merges (column binds) subject, activity (id and names) and X_train/X_test data as one data frame.
 	* Creates a tidy data set (tidy_mean_data.txt) in the working directory with the average of each variable for each activity and each subject.
+	
 	Note: when run_analysis.R is sourced in R it will load dplyr package which is used in
 	the function.
 	
