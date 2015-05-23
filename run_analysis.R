@@ -66,5 +66,5 @@ run_analysis <- function (){
         
 }
 
-# after running run_analysis() following can be executed in R command line to red the tidy_mean_data.txt file
+# after running run_analysis() following can be executed in R command line to read the tidy_mean_data.txt file
 #data<- read.table("tidy_mean_data.txt", header=TRUE)
