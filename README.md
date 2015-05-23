@@ -1,6 +1,7 @@
-# GCD_Project: Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 
 Coursera - John Hopkins University: Getting and Cleaning Data
+
 Student Name: Jose Carrasquero
 
 There are two important files along with this one:
